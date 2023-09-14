@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: #1B1A17; */
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+background: rgba(7, 7, 7, 0.89);
+}
+.flex{
+    display: flex;
+}
+.input{
+    width: 267px;
+height: 32px;
+border-radius: 4px;
+border: 1px solid #FF8303;
+background: #242320;
+color: #FFF;
+}
+.main_container{
+    width: 390px;
+    /* padding: 23px 22px 0px 23px; */
+    padding: 23px;
+    background: rgba(7, 7, 7, 0.89);
+}
+.form{
+    gap: 8px;
+    /* width: 345px; */
+    justify-content: center;
+}
+.input_text{
+    gap: 6px;
+    flex-direction: column;
+    /* height: 70px; */
+}
+.button{
+    border-radius: none;
+    border: none;
+    width: 70px;
+    height: 70px;
+    background-color: #1B1A17;
+}
+.form_task{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    width: 345px;
+    gap: 33px;
+}
+.no_task{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.no-task-box{
+    /* width: 100px; */
+    /* border: 10px  solid orange; */
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #FFF; 
+}
+.add_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: flex; */
+/* width: 345px; */
+/* height: 72px; */
+padding: 16px;
+/* justify-content: center; */
+/* align-items: flex-start; */
+gap: 16px;
+/* border: 1px solid #FF8303; */
+border-radius: 8px;
+border: 2px solid #A35709;
+background: #242320;
+/* background-color: black; */
+}
+.del_btn{
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #1B1A17;
+}
+.error{
+    color: #F0E3CA;
+}
+/* .d-none{
+    display: none;
+} */
+.ticket_box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.edit_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 8px;
+}
+.over_all_ticket{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.del_popup{
+    height: 100vh;
+    width: 390px;
+    background: rgba(7, 7, 7, 0.89);
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+    top: 0;
+    opacity: 90%;
+/* align-items: start; */
+/* margin: auto; */
+}
+.del_btn_popup{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.del_pop_head{
+    display: flex;
+    justify-content: center;
+    
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 100% */
+
+}
+.del_popup_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 281px;
+    height: 143px;
+    /* border-radius:  solid  #A35709 4px; */
+/* background: #1B1A17; */
+    margin: 0px 46px;
+    /* background-color: #F0E3CA; */
+    border-top:5px solid #A35709 ;
+    border-radius: 4px;
+background: #1B1A17;
+}
+
+    .edit_button{
+        border-radius: none;
+        border: none;
+        width: 36px;
+        height: 36px;
+        background-color: #1B1A17;
+    }
+.overAll{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.del-button{
+    width: 64px;
+height: 24px;
+border-radius: 4px;
+border: 1px solid #A35709;
+background: #242320;
+color: #D9D9D9;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+/* background-color: #242320; */
+}

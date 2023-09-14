@@ -1,0 +1,21 @@
+`<div class="add_box">
+    <div>
+        <p>${firstValue}</p>
+        <p>${secondValue}</p>
+    </div>
+    <div>
+        <button><img src="../assets/delete.svg" alt="delete"></button>
+    </div>
+</div>`
+    console.log(firstValue,secondValue)
+
+
+
+
+    echo "# Todo-list-javascript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/surendran0930/Todo-list-javascript.git
+git push -u origin main
